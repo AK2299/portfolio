@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Arunkumar N</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="fixed top-0 left-0 right-0 z-50 bg-[#07090e]/80 backdrop-blur-md border-b-2 border-slate-800">
+        <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="pixel-font bg-yellow-400 text-black px-3 py-2 border-2 border-black rotate-[-2deg]">AN.SYS</a>
+            <div class="hidden md:flex space-x-8 font-bold text-sm">
+                <a href="index.html" class="hover:text-yellow-400 transition">Home</a>
+                <a href="about.html" class="hover:text-yellow-400 transition">About</a>
+                <a href="projects.html" class="text-yellow-400">Projects</a>
+                <a href="experience.html" class="hover:text-yellow-400 transition">Experience</a>
+                <a href="contact.html" class="hover:text-yellow-400 transition">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-28 space-y-12 animate-fade-in">
+        <h2 class="text-4xl font-extrabold border-l-8 border-yellow-400 pl-4">QUEST LOG (PROJECTS)</h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="comic-glass-card p-6 rounded-2xl space-y-4">
+                <span class="pixel-font text-blue-400 bg-blue-950 px-2 py-1 border border-blue-500">PYTHON | ML | IOT</span>
+                <h3 class="text-2xl font-bold text-white">BIPV Solar Panel Energy & Fault Prediction</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">Engineered a BIPV monitoring pipeline to predict energy yields, model thermal telemetry, and detect degradation anomalies[cite: 1].</p>
+            </div>
+
+            <div class="comic-glass-card p-6 rounded-2xl space-y-4">
+                <span class="pixel-font text-yellow-400 bg-yellow-950 px-2 py-1 border border-yellow-500">PYTORCH | LSTM | TRANSFORMER</span>
+                <h3 class="text-2xl font-bold text-white">AI-Driven Gas Pipeline Maintenance</h3>
+                <p class="text-slate-300 text-sm leading-relaxed">Built an anomaly detection framework using a hybrid LSTM-Transformer model to forecast mechanical pipeline failures from sensor streams[cite: 1].</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
